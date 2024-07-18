@@ -1,2 +1,2 @@
 # MLOps
-Titanc model deployed using CI
+Titanic model deployed using CI
