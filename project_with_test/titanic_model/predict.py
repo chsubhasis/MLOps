@@ -34,7 +34,7 @@ def make_prediction(*,input_data:Union[pd.DataFrame, dict]) -> dict:
 
     results = {"predictions": predictions,"version": _version, "errors": errors}
     print(results)
-    print(predictions)
+    print(predictions[0])
     if not errors:
 
         predictions = titanic_pipe.predict(validated_data)
